@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/xx/commonspace/begin_ws/devel/include",
+                "/home/xx/commonspace/lidar_ws/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/xx/commonspace/begin_ws/src/actionlib_tutorials/include",
+                "/home/xx/commonspace/begin_ws/src/first_actionlib_sample/include",
+                "/home/xx/commonspace/begin_ws/src/learning_tf/include",
+                "/home/xx/commonspace/begin_ws/src/udp_get/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
