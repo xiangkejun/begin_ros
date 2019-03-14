@@ -207,3 +207,10 @@ target_link_libraries(turtle_tf_listener ${catkin_LIBRARIES})
 
 add_executable(frame_tf_broadcaster src/frame_tf_broadcaster.cpp)
 target_link_libraries(frame_tf_broadcaster ${catkin_LIBRARIES})
+
+
+add_executable(tf_echo src/tf_echo.cpp)
+target_link_libraries(tf_echo ${catkin_LIBRARIES})
+
+add_executable(state_publisher src/state_publisher.cpp)
+target_link_libraries(state_publisher ${catkin_LIBRARIES})
