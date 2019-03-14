@@ -26,11 +26,14 @@ rosrun learning_tf tf_echo /odom /map
 (可能需要 robot_state_publisher joint_state_publisher搭配使用)
 
 http://wiki.ros.org/robot_state_publisher
+
 robot_state_publisher 用于发布link
 
 http://wiki.ros.org/urdf/Tutorials/Using%20urdf%20with%20robot_state_publisher
+
 state_publisher 用于发布joint(可以设置动态关系)
 
 http://wiki.ros.org/joint_state_publisher
+
 joint_state_publisher 用于发布joint联接
 
