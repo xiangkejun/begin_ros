@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+  
+<robot name="chuan_xx" xmlns:xacro="http://ros.org/wiki/xacro">
+
+
+  <xacro:include filename="$(find learning_tf)/urdf/properties_xx.urdf.xacro" />
+  <xacro:include filename="$(find learning_tf)/urdf/chuan.urdf.xacro" />
+  <xacro:include filename="$(find learning_tf)/urdf/basefoot_xx.urdf.xacro" />
+
+</robot>
